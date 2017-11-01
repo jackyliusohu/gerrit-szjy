@@ -1,0 +1,5 @@
+Host gitlab.x.com
+        User liupeng 
+        IdentityFile ~/.ssh/id_rsa 
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/nulli

@@ -8,15 +8,7 @@
 
 4. 打开http://192.168.2.7:7070 创建liupeng 项目并创建分支l_dev
 
-5. 在gerrit 服务器添加到gitlab 项目的key 认证的配置如下，并把~/.ssh/id_rsa.pub 添加到gitlab
-
-[gerrit@deploy etc]$ cat ~/.ssh/config 
-        Host gitlab.x.com
-        User liupeng 
-        IdentityFile ~/.ssh/id_rsa 
-        StrictHostKeyChecking no
-        UserKnownHostsFile /dev/nulli
-
+5. 在gerrit 服务器添加到gitlab 项目的key 认证的配置config，并把~/.ssh/id_rsa.pub 添加到gitlab
 
 6. 下载gerrit-szjy  etc中配置文件 ，copy 到 /opt/gerrit/review_site/etc
 
